@@ -1,0 +1,43 @@
+{
+  "name": "-comp-lib",
+  "version": "1.0.1",
+  "description": "React component library",
+  "scripts": {
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbymcm/-comp-lib.git"
+  },
+  "author": "Rob McMahon",
+  "license": "ISC",
+  "type": "module",
+  "homepage": "https://github.com/robbymcm/-comp-lib#readme",
+  "dependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@storybook/addon-knobs": "^6.4.0",
+    "@storybook/react": "^6.5.13",
+    "babel-loader": "^9.1.0",
+    "node-sass": "^8.0.0",
+    "path": "^0.12.7",
+    "react": "16.8.0",
+    "sass-loader": "^13.2.0",
+    "ts-loader": "^9.4.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^23.0.3",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^10.0.0",
+    "@tsconfig/recommended": "^1.0.1",
+    "rollup": "^3.5.0",
+    "rollup-plugin-dts": "^5.0.0"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
